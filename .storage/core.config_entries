@@ -1,0 +1,221 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "c01d8c05080409727646bb5fab63436b",
+        "version": 1,
+        "domain": "hassio",
+        "title": "Supervisor",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "system",
+        "unique_id": "hassio",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "11ade198c2bfa75483ddb36789cd6c36",
+        "version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "d918924e2e27162dd736a99cf1778d21",
+        "version": 1,
+        "domain": "shopping_list",
+        "title": "Shopping list",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": "shopping_list",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "e1a9a91b9082ee5bc4715a91368bd790",
+        "version": 1,
+        "domain": "google_translate",
+        "title": "Google Translate text-to-speech",
+        "data": {
+          "language": "en",
+          "tld": "com"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "8f8c182423367ee06e314af8907047ea",
+        "version": 1,
+        "domain": "met",
+        "title": "Home",
+        "data": {
+          "track_home": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "6b0431a2702abeb079fb30fcd06f9b4e",
+        "version": 1,
+        "domain": "radio_browser",
+        "title": "Radio Browser",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "b054c3739310e232b38a14188566d4cb",
+        "version": 1,
+        "domain": "upnp",
+        "title": "Archer C54 AC1200 Dual Band Wi-Fi Router",
+        "data": {
+          "udn": "uuid:upnp-InternetGatewayDevice-9977E2DE3EA8",
+          "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+          "original_udn": "uuid:upnp-InternetGatewayDevice-9977E2DE3EA8",
+          "location": "http://192.168.0.1:1900/igd.xml",
+          "mac_address": "30:de:4b:77:97:01",
+          "host": "192.168.0.1"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:upnp-InternetGatewayDevice-9977E2DE3EA8::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "bebb753e59b7966bf02de2c5b3906a07",
+        "version": 1,
+        "domain": "ipp",
+        "title": "HP ENVY 6000 series [984F3B]",
+        "data": {
+          "host": "192.168.0.105",
+          "port": 631,
+          "ssl": true,
+          "verify_ssl": false,
+          "base_path": "/ipp/print",
+          "name": "HP ENVY 6000 series [984F3B]",
+          "uuid": "6e706ad3-fc74-4a46-b6ac-0b024072a477"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "6e706ad3-fc74-4a46-b6ac-0b024072a477",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "1f074add132ad7ad98b4bbcadc283243",
+        "version": 1,
+        "domain": "dlna_dms",
+        "title": "HP-ENVY: teamichelle13@gmail.com:",
+        "data": {
+          "url": "http://192.168.0.111:2869/upnphost/udhisapi.dll?content=uuid:84b15fb4-4239-4c55-a897-9b6bf7adccb2",
+          "device_id": "uuid:84b15fb4-4239-4c55-a897-9b6bf7adccb2::urn:schemas-upnp-org:device:MediaServer:1",
+          "source_id": "hp_envy_teamichelle13_gmail_com"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:84b15fb4-4239-4c55-a897-9b6bf7adccb2::urn:schemas-upnp-org:device:MediaServer:1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "464b66652c67940e14b9c4eda43310a0",
+        "version": 1,
+        "domain": "roku",
+        "title": "John & Tea",
+        "data": {
+          "host": "192.168.0.109",
+          "name": "John & Tea"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "YG00GA446671",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "93a49fe5a615f0ae3aeb356da68ae645",
+        "version": 1,
+        "domain": "upnp",
+        "title": "SAX1V1S",
+        "data": {
+          "udn": "uuid:b0fc886ed55a",
+          "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:2",
+          "original_udn": "uuid:b0fc886ed55a",
+          "location": "http://192.168.1.1:56213/rootDesc.xml",
+          "mac_address": null,
+          "host": "192.168.1.1"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:b0fc886ed55a::urn:schemas-upnp-org:device:InternetGatewayDevice:2",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "2a248561f1dc443015c3f28218026088",
+        "version": 1,
+        "domain": "wyoming",
+        "title": "Whisper",
+        "data": {
+          "host": "core-whisper",
+          "port": 10300
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "hassio",
+        "unique_id": "4075c8bb309748c69a56de36208afb36",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "566d08301a3c8ffc57912197a95854c2",
+        "version": 1,
+        "domain": "icloud",
+        "title": "teamichelle13@icloud.com",
+        "data": {
+          "username": "teamichelle13@icloud.com",
+          "password": "Coffee8654!",
+          "with_family": false,
+          "max_interval": 30,
+          "gps_accuracy_threshold": 500
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "teamichelle13@icloud.com",
+        "disabled_by": null
+      }
+    ]
+  }
+}

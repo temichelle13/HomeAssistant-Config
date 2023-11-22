@@ -1,0 +1,1320 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {
+        "entity_id": "person.tea_larson_hetrick",
+        "state": "unknown",
+        "attributes": {
+          "editable": true,
+          "id": "tea_larson_hetrick",
+          "user_id": "cf03420173ed48889df012996443659a",
+          "device_trackers": [],
+          "icon": "mdi:human-female",
+          "friendly_name": "Tea Larson-Hetrick"
+        },
+        "last_changed": "2023-11-22T03:37:32.438188+00:00",
+        "last_updated": "2023-11-22T03:37:57.828871+00:00",
+        "context": {
+          "id": "01HFTHP8A4H2TVCEGRWZEHD52Y",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.home_assistant_supervisor_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "2023.11.4",
+          "in_progress": false,
+          "latest_version": "2023.11.4",
+          "release_summary": null,
+          "release_url": "https://github.com/home-assistant/supervisor/releases/tag/2023.11.4",
+          "skipped_version": null,
+          "title": "Home Assistant Supervisor",
+          "entity_picture": "https://brands.home-assistant.io/hassio/icon.png",
+          "icon": "mdi:home-assistant",
+          "friendly_name": "Update",
+          "supported_features": 1
+        },
+        "last_changed": "2023-11-22T03:37:38.208721+00:00",
+        "last_updated": "2023-11-22T03:37:38.208721+00:00",
+        "context": {
+          "id": "01HFTHNN50MW0VRESRX89DDJC4",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.home_assistant_core_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "2023.11.2",
+          "in_progress": false,
+          "latest_version": "2023.11.2",
+          "release_summary": null,
+          "release_url": "https://www.home-assistant.io/latest-release-notes/",
+          "skipped_version": null,
+          "title": "Home Assistant Core",
+          "entity_picture": "https://brands.home-assistant.io/homeassistant/icon.png",
+          "friendly_name": "Home Assistant Core Update",
+          "supported_features": 11
+        },
+        "last_changed": "2023-11-22T03:37:38.208894+00:00",
+        "last_updated": "2023-11-22T03:37:38.208894+00:00",
+        "context": {
+          "id": "01HFTHNN50YV3JD3JEQK2MG0J4",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.zerotier_one_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "0.17.3",
+          "in_progress": false,
+          "latest_version": "0.17.3",
+          "release_summary": "## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update alpine_3_18/openssl-dev to v3.1.3-r0 @renovate ([#205](https://github.com/hassio-addons/addon-zerotier/pull/205))\n- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.1.1 @renovate ([#206](https",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "ZeroTier One",
+          "entity_picture": "/api/hassio/addons/a0d7b954_zerotier/icon",
+          "friendly_name": "ZeroTier One Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.209002+00:00",
+        "last_updated": "2023-11-22T03:37:38.209002+00:00",
+        "context": {
+          "id": "01HFTHNN515QHGN1AANA5P25PS",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.dhcp_server_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "1.3.0",
+          "in_progress": false,
+          "latest_version": "1.3.0",
+          "release_summary": "# Changelog\n\n## 1.3.0\n\n- Add NTP server configuration option.\n\n## 1.2\n\n- Fixes crash when using FQDN as domain\n\n## 1.1\n\n- Rewrite add-on onto Bashio\n- Added documentation to add-on repository\n- Small changes to code styling\n\n## 1.0\n\n- Update DHCP to 4.4.1",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "DHCP server",
+          "entity_picture": "/api/hassio/addons/core_dhcp_server/icon",
+          "friendly_name": "DHCP server Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.209082+00:00",
+        "last_updated": "2023-11-22T03:37:38.209082+00:00",
+        "context": {
+          "id": "01HFTHNN51Y16WRZMYNFPRJCZH",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.file_editor_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "5.7.0",
+          "in_progress": false,
+          "latest_version": "5.7.0",
+          "release_summary": "# Changelog\n\n## 5.7.0\n\n- Use new location for accessing the Home Assistant configuration folder using `/homeassistant`\n- Add access to the new public configuration folders of add-ons\n- Upgrade to Alpine 3.18\n- Remove unneeded pip configuration when buildi",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "File editor",
+          "entity_picture": "/api/hassio/addons/core_configurator/icon",
+          "friendly_name": "File editor Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.209172+00:00",
+        "last_updated": "2023-11-22T03:42:52.135262+00:00",
+        "context": {
+          "id": "01HFTHZ7Q7042WZZDCQZVBPHXV",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.git_pull_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "7.13.1",
+          "in_progress": false,
+          "latest_version": "7.13.1",
+          "release_summary": "# Changelog\n\n## 7.13.1\n\n- Update Home Assistant CLI to 4.12.2\n\n## 7.13.0\n\n- Update Home Assistant CLI to 4.12.1\n- Upgrade base image to Alpine 3.13\n- Supress a shellcheck warning happening in CI\n\n## 7.12.2\n\n- Update Home Assistant CLI to 4.11.0\n\n## 7.12.1",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Git pull",
+          "entity_picture": "/api/hassio/addons/core_git_pull/icon",
+          "friendly_name": "Git pull Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.209249+00:00",
+        "last_updated": "2023-11-22T03:37:38.209249+00:00",
+        "context": {
+          "id": "01HFTHNN51WXNC6J04MYGK78VN",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.google_assistant_sdk_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "2.5.0",
+          "in_progress": false,
+          "latest_version": "2.5.0",
+          "release_summary": "# Changelog\n\n## 2.5.0\n\n- Add an option to enable feedback sounds\n\n## 2.4.0\n\n- Improve OAuth connection process UI\n- Fix error 500 after submitting the OAuth token\n\n## 2.3.2\n\n- Update Google Assistant SDK back to 0.5.1\n- Update Google Assistant Library bac",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Google Assistant SDK",
+          "entity_picture": "/api/hassio/addons/core_google_assistant/icon",
+          "friendly_name": "Google Assistant SDK Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.209321+00:00",
+        "last_updated": "2023-11-22T03:37:38.209321+00:00",
+        "context": {
+          "id": "01HFTHNN5165XXCE6EE0KE856R",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.matter_server_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "4.10.2",
+          "in_progress": false,
+          "latest_version": "4.10.2",
+          "release_summary": "# Changelog\n\n## 4.10.2\n\n- Bump Python Matter Server to [4.0.2](https://github.com/home-assistant-libs/python-matter-server/releases/tag/4.0.2)\n\n## 4.10.1\n\n- Bump Python Matter Server to [4.0.1](https://github.com/home-assistant-libs/python-matter-server/r",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Matter Server",
+          "entity_picture": "/api/hassio/addons/core_matter_server/icon",
+          "friendly_name": "Matter Server Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.209396+00:00",
+        "last_updated": "2023-11-22T03:37:38.209396+00:00",
+        "context": {
+          "id": "01HFTHNN519P7CFTY7M9807KWZ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.mosquitto_broker_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "6.4.0",
+          "in_progress": false,
+          "latest_version": "6.4.0",
+          "release_summary": "# Changelog\n\n## 6.4.0\n\n- Update mosquitto to 2.0.18\n\n## 6.3.1\n\n- Add ability to use a pre-hashed password for custom logins\n\n## 6.3.0\n\n- Update mosquitto to 2.0.17\n\n## 6.2.1\n\n- Add explicit dependencies for dynamic security plugin and asynchronous name re",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Mosquitto broker",
+          "entity_picture": "/api/hassio/addons/core_mosquitto/icon",
+          "friendly_name": "Mosquitto broker Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.209466+00:00",
+        "last_updated": "2023-11-22T03:37:38.209466+00:00",
+        "context": {
+          "id": "01HFTHNN51Z8TS7MNAHAEYNHTZ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.nginx_home_assistant_ssl_proxy_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "3.5.0",
+          "in_progress": false,
+          "latest_version": "3.5.0",
+          "release_summary": "# Changelog\n\n## 3.5.0\n\n- Update Alpine to 3.18 (nginx 1.24.x)\n\n## 3.4.2\n\n- Decrease crond log level\n\n## 3.4.1\n\n- Avoid logging to system console\n\n## 3.4.0\n\n- Add X-Forwarded-Host to fix origin issues affecting VSCode and other addons\n\n## 3.3.0\n\n- Check ce",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "NGINX Home Assistant SSL proxy",
+          "entity_picture": "/api/hassio/addons/core_nginx_proxy/icon",
+          "friendly_name": "NGINX Home Assistant SSL proxy Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.209663+00:00",
+        "last_updated": "2023-11-22T03:37:38.209663+00:00",
+        "context": {
+          "id": "01HFTHNN51P1EC7GBB0EJF6S0K",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.openthread_border_router_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "2.3.2",
+          "in_progress": false,
+          "latest_version": "2.3.2",
+          "release_summary": "# Changelog\n\n## 2.3.2\n\n- Bump to OTBR POSIX version 9e50efa8de (2023-08-23 21:28:30 -0700)\n  This updates mDNSResponder to 1790.80.10\n\n## 2.3.1\n\n- Update firmare for Home Assistant SkyConnect and Yellow to the latest version\n  built from Gecko SDK v4.3.1.",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "OpenThread Border Router",
+          "entity_picture": "/api/hassio/addons/core_openthread_border_router/icon",
+          "friendly_name": "OpenThread Border Router Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.209748+00:00",
+        "last_updated": "2023-11-22T03:37:38.209748+00:00",
+        "context": {
+          "id": "01HFTHNN5129G1WC4XXZR41VBF",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.samba_share_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "12.1.0",
+          "in_progress": false,
+          "latest_version": "12.1.0",
+          "release_summary": "# Changelog\n\n## 12.1.0\n\n- Use the new Home Assistant folder for the `config` share\n- Add support for accessing public add-on configurations\n\n## 12.0.0\n\n- Temporary remove access to add-on config shares, until Supervisor 2023.11.2 has been rolled out stabl",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Samba share",
+          "entity_picture": "/api/hassio/addons/core_samba/icon",
+          "friendly_name": "Samba share Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.209811+00:00",
+        "last_updated": "2023-11-22T03:37:38.209811+00:00",
+        "context": {
+          "id": "01HFTHNN516BHWP5WBRGQT5QGM",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.silicon_labs_flasher_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "0.2.0",
+          "in_progress": false,
+          "latest_version": "0.2.0",
+          "release_summary": "# Changelog\n\n## 0.2.0\n\n- Update universal-silabs-flasher to v0.0.13\n- Update firmware for Home Assistant Yellow and SkyConnect to v7.3.1.0\n- Use Alpine 3.17/Python 3.11 base image\n\n## 0.1.1\n\n- Fix firmware installation from URL\n- Exit add-on after flashin",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Silicon Labs Flasher",
+          "entity_picture": "/api/hassio/addons/core_silabs_flasher/icon",
+          "friendly_name": "Silicon Labs Flasher Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.209868+00:00",
+        "last_updated": "2023-11-22T03:37:38.209868+00:00",
+        "context": {
+          "id": "01HFTHNN51SM3M9396ZT1N0N3N",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.silicon_labs_multiprotocol_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "2.3.2",
+          "in_progress": false,
+          "latest_version": "2.3.2",
+          "release_summary": "# Changelog\n\n## 2.3.2\n\n- Update mDNSResponder to 1790.80.10\n\n## 2.3.1\n\n- Use Silicon Labs Gecko SDK 4.3.1\n\n## 2.3.0\n\n- Add patch with new REST API to reset the OTBR\n- Bump universal SiLabs flasher to 0.0.13\n\n## 2.2.0\n\n- Use Silicon Labs Gecko SDK 4.3.0\n  ",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Silicon Labs Multiprotocol",
+          "entity_picture": "/api/hassio/addons/core_silabs_multiprotocol/icon",
+          "friendly_name": "Silicon Labs Multiprotocol Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.209929+00:00",
+        "last_updated": "2023-11-22T03:37:38.209929+00:00",
+        "context": {
+          "id": "01HFTHNN5111YFKNPTA2EQ7RGX",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.tellstick_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "2.1.0",
+          "in_progress": false,
+          "latest_version": "2.1.0",
+          "release_summary": "# Changelog\n\n## 2.1.0\n\n- Update hardware configuration for Supervisor 2021.02.5\n- Use Alpine 3.13\n\n## 2.0.0\n\n- Rewrites add-on onto Bashio\n- Added documentation to the add-on repository\n- Code formatting\n\n## 1.0.0\n\n- Update base image\n\n## 0.5.0\n\n- Added p",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "TellStick",
+          "entity_picture": "/api/hassio/addons/core_tellstick/icon",
+          "friendly_name": "TellStick Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.209985+00:00",
+        "last_updated": "2023-11-22T03:37:38.209985+00:00",
+        "context": {
+          "id": "01HFTHNN51DY694JTWCMPQXM8N",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.terminal_ssh_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "9.8.1",
+          "in_progress": false,
+          "latest_version": "9.8.1",
+          "release_summary": "# Changelog\n\n## 9.8.1\n\n- Add `/config` symlink to for backward and docs compatibility.\n\n## 9.8.0\n\n- Please note: the `/config` folder has been renamed to `/homeassistant`.\n- Add support for accessing public add-on configurations\n- Upgrade to Alpine 3.18\n\n",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Terminal & SSH",
+          "entity_picture": "/api/hassio/addons/core_ssh/icon",
+          "friendly_name": "Terminal & SSH Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.210046+00:00",
+        "last_updated": "2023-11-22T03:37:38.210046+00:00",
+        "context": {
+          "id": "01HFTHNN529PTCR8TSCGBK4PP6",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.vlc_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "0.2.0",
+          "in_progress": false,
+          "latest_version": "0.2.0",
+          "release_summary": "# Changelog\n\n## 0.2.0\n\n- Update to Alpine 3.17\n- Mark add-on as stable\n- Use new s6-overlay\n\n## 0.1.3\n\n- Correct port on discovery\n\n## 0.1.2\n\n- Revert restart nginx service on error\n\n## 0.1.1\n\n- Restart nginx service on error\n\n## 0.1.0\n\n- Initial release\n",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "VLC",
+          "entity_picture": "/api/hassio/addons/core_vlc/icon",
+          "friendly_name": "VLC Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.210103+00:00",
+        "last_updated": "2023-11-22T03:37:38.210103+00:00",
+        "context": {
+          "id": "01HFTHNN52FV54EX05JEE5YE79",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.esphome_dev_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "dev",
+          "in_progress": false,
+          "latest_version": "dev",
+          "release_summary": "See https://esphome.io/changelog/index.html\n",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "ESPHome (dev)",
+          "entity_picture": "/api/hassio/addons/5c53de3b_esphome-dev/icon",
+          "friendly_name": "ESPHome (dev) Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.210159+00:00",
+        "last_updated": "2023-11-22T03:37:38.210159+00:00",
+        "context": {
+          "id": "01HFTHNN5220GXGE71FM3YDD1K",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.whisper_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "1.0.0",
+          "in_progress": false,
+          "latest_version": "1.0.0",
+          "release_summary": "# Changelog\n\n## 1.0.0\n\n- Upgrade to `wyoming-whisper` 1.0.1\n- Allow multiple languages to be used simultaneously without restart\n\n## 0.2.1\n\n- Exclude `*.bin` model files from backup\n\n## 0.2.0\n\n- Hash model files at startup to detect bad downloads\n- Fix \"a",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Whisper",
+          "entity_picture": "/api/hassio/addons/core_whisper/icon",
+          "friendly_name": "Whisper Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.210219+00:00",
+        "last_updated": "2023-11-22T03:37:38.210219+00:00",
+        "context": {
+          "id": "01HFTHNN52W3TMGG58M90B4AMC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.z_wave_js_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "0.3.0",
+          "in_progress": false,
+          "latest_version": "0.3.0",
+          "release_summary": "# Changelog\n\n## 0.3.0\n\n### Features\n\n- Add-On: Add `disable_controller_recovery` configuration option. When enabled, the driver will not attempt to automatically recover from an unresponsive controller and will instead either let the controller recover on",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Z-Wave JS",
+          "entity_picture": "/api/hassio/addons/core_zwave_js/icon",
+          "friendly_name": "Z-Wave JS Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.210310+00:00",
+        "last_updated": "2023-11-22T03:37:38.210310+00:00",
+        "context": {
+          "id": "01HFTHNN52QHP8S9T9ZTCFPMP2",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.advanced_ssh_web_terminal_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "16.0.1",
+          "in_progress": false,
+          "latest_version": "16.0.1",
+          "release_summary": "## What’s changed\n\n## 🐛 Bug fixes\n\n- Fix unbound variable in log warning message @frenck ([#634](https://github.com/hassio-addons/addon-ssh/pull/634))\n",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Advanced SSH & Web Terminal",
+          "entity_picture": "/api/hassio/addons/a0d7b954_ssh/icon",
+          "friendly_name": "Advanced SSH & Web Terminal Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.210368+00:00",
+        "last_updated": "2023-11-22T03:37:38.210368+00:00",
+        "context": {
+          "id": "01HFTHNN52A2ABHFC29RA9BW54",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.aircast_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "4.0.1",
+          "in_progress": false,
+          "latest_version": "4.0.1",
+          "release_summary": "## What’s changed\n\n## 🐛 Bug fixes\n\n- Fix incorrect check for existing files @frenck ([#193](https://github.com/hassio-addons/addon-aircast/pull/193))\n",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "AirCast",
+          "entity_picture": "/api/hassio/addons/a0d7b954_aircast/icon",
+          "friendly_name": "AirCast Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.210437+00:00",
+        "last_updated": "2023-11-22T03:37:38.210437+00:00",
+        "context": {
+          "id": "01HFTHNN52ADEVRP3T42SYDV7N",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.airsonos_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "4.0.1",
+          "in_progress": false,
+          "latest_version": "4.0.1",
+          "release_summary": "## What’s changed\n\n## 🐛 Bug fixes\n\n- Fix incorrect check for existing files @frenck ([#150](https://github.com/hassio-addons/addon-airsonos/pull/150))\n",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "AirSonos",
+          "entity_picture": "/api/hassio/addons/a0d7b954_airsonos/icon",
+          "friendly_name": "AirSonos Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.210490+00:00",
+        "last_updated": "2023-11-22T03:37:38.210490+00:00",
+        "context": {
+          "id": "01HFTHNN5267936W31T18Q472D",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.appdaemon_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "0.15.2",
+          "in_progress": false,
+          "latest_version": "0.15.2",
+          "release_summary": "## What’s changed\n\n⚠️ With this release, the `appdaemon` data folder will migrate/move out of the Home Assistant configuration folder into a dedicated folder for this add-on. You can access add-on configuration folders using SSH, Samba, VSCode, and simila",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "AppDaemon",
+          "entity_picture": "/api/hassio/addons/a0d7b954_appdaemon/icon",
+          "friendly_name": "AppDaemon Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.210546+00:00",
+        "last_updated": "2023-11-22T03:37:38.210546+00:00",
+        "context": {
+          "id": "01HFTHNN52Z8AKHB79K34M3MXC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.bookstack_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "1.10.1",
+          "in_progress": false,
+          "latest_version": "1.10.1",
+          "release_summary": "## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update alpine_3_18/mariadb-client to v10.11.5-r0 @renovate ([#255](https://github.com/hassio-addons/addon-bookstack/pull/255))\n- ⬆️ Update BookStackApp/BookStack to v23.08.3 @renovate ([#256](https://githu",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Bookstack",
+          "entity_picture": "/api/hassio/addons/a0d7b954_bookstack/icon",
+          "friendly_name": "Bookstack Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.210602+00:00",
+        "last_updated": "2023-11-22T03:37:38.210602+00:00",
+        "context": {
+          "id": "01HFTHNN52HWKSK23Q2470F3YC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.chrony_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "2.6.2",
+          "in_progress": false,
+          "latest_version": "2.6.2",
+          "release_summary": "## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.1.1 @renovate ([#140](https://github.com/hassio-addons/addon-chrony/pull/140))\n- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.1.3 @renovate ([#",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "chrony",
+          "entity_picture": "/api/hassio/addons/a0d7b954_chrony/icon",
+          "friendly_name": "chrony Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.210689+00:00",
+        "last_updated": "2023-11-22T03:37:38.210689+00:00",
+        "context": {
+          "id": "01HFTHNN52HRWKBASS16MZN8KS",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.emqx_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "0.2.12",
+          "in_progress": false,
+          "latest_version": "0.2.12",
+          "release_summary": "## What’s changed\n\n## 🚀 Enhancements\n\n- Replace health check to prevent high CPU and memory spike @RemCom ([#73](https://github.com/hassio-addons/addon-emqx/pull/73))\n",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "EMQX",
+          "entity_picture": "/api/hassio/addons/a0d7b954_emqx/icon",
+          "friendly_name": "EMQX Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.210747+00:00",
+        "last_updated": "2023-11-22T03:37:38.210747+00:00",
+        "context": {
+          "id": "01HFTHNN528GXZV83WNKMBNC3Q",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.folding_home_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "0.7.1",
+          "in_progress": false,
+          "latest_version": "0.7.1",
+          "release_summary": "## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.2.0 @renovate ([#64](https://github.com/hassio-addons/addon-foldingathome/pull/64))\n",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Folding@home",
+          "entity_picture": "/api/hassio/addons/a0d7b954_foldingathome/icon",
+          "friendly_name": "Folding@home Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.210802+00:00",
+        "last_updated": "2023-11-22T03:37:38.210802+00:00",
+        "context": {
+          "id": "01HFTHNN5216YX8R5PEPWDHNZA",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.ftp_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "4.7.3",
+          "in_progress": false,
+          "latest_version": "4.7.3",
+          "release_summary": "## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update alpine_3_18/openssl to v3.1.3-r0 @renovate ([#156](https://github.com/hassio-addons/addon-ftp/pull/156))\n- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.1.1 @renovate ([#157](https://github",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "FTP",
+          "entity_picture": "/api/hassio/addons/a0d7b954_ftp/icon",
+          "friendly_name": "FTP Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.210857+00:00",
+        "last_updated": "2023-11-22T03:37:38.210857+00:00",
+        "context": {
+          "id": "01HFTHNN52J2TDGMN7KKNWP8DV",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.glances_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "0.20.0",
+          "in_progress": false,
+          "latest_version": "0.20.0",
+          "release_summary": "## What’s changed\n\n## 🚨 Breaking changes\n\n- Drop support for armhf & i386 @frenck ([#428](https://github.com/hassio-addons/addon-glances/pull/428))\n\n## 🚀 Enhancements\n\n- 🔨 Update logging from file to console @sinclairpaul ([#431](https://github.com/hassio",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Glances",
+          "entity_picture": "/api/hassio/addons/a0d7b954_glances/icon",
+          "friendly_name": "Glances Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.210911+00:00",
+        "last_updated": "2023-11-22T03:37:38.210911+00:00",
+        "context": {
+          "id": "01HFTHNN52SRTPT5K1XM0G491X",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.jupyterlab_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "0.12.1",
+          "in_progress": false,
+          "latest_version": "0.12.1",
+          "release_summary": "## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update jupyterlab to v4.0.6 @renovate ([#499](https://github.com/hassio-addons/addon-jupyterlab/pull/499))\n- ⬆️ Update matplotlib to v3.8.0 @renovate ([#500](https://github.com/hassio-addons/addon-jupyterl",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "JupyterLab",
+          "entity_picture": "/api/hassio/addons/a0d7b954_jupyterlablite/icon",
+          "friendly_name": "JupyterLab Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.211123+00:00",
+        "last_updated": "2023-11-22T03:37:38.211123+00:00",
+        "context": {
+          "id": "01HFTHNN53S95P1MVHDGHSQEB2",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.log_viewer_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "0.16.0",
+          "in_progress": false,
+          "latest_version": "0.16.0",
+          "release_summary": "## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update alpine_3_18/nginx to v1.24.0-r4 @renovate ([#164](https://github.com/hassio-addons/addon-log-viewer/pull/164))\n- ⬆️ Update alpine_3_18/nginx to v1.24.0-r5 @renovate ([#165](https://github.com/hassio",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Log Viewer",
+          "entity_picture": "/api/hassio/addons/a0d7b954_logviewer/icon",
+          "friendly_name": "Log Viewer Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.211187+00:00",
+        "last_updated": "2023-11-22T03:37:38.211187+00:00",
+        "context": {
+          "id": "01HFTHNN53YQCPA3WZ69Y9JSPD",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.motioneye_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "0.19.1",
+          "in_progress": false,
+          "latest_version": "0.19.1",
+          "release_summary": "## What’s changed\n\n## 🐛 Bug fixes\n\n- Fix broken V4L2 support @frenck ([#416](https://github.com/hassio-addons/addon-motioneye/pull/416))\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.2 @renovate ([#415](https://gith",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "motionEye",
+          "entity_picture": "/api/hassio/addons/a0d7b954_motioneye/icon",
+          "friendly_name": "motionEye Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.211244+00:00",
+        "last_updated": "2023-11-22T03:37:38.211244+00:00",
+        "context": {
+          "id": "01HFTHNN538MVV48CQ31JB2WKC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.mqtt_io_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "0.3.0",
+          "in_progress": false,
+          "latest_version": "0.3.0",
+          "release_summary": "## What’s changed\n\n## 🐛 Bug fixes\n\n- Add full access to add-on @frenck ([#87](https://github.com/hassio-addons/addon-mqtt-io/pull/87))\n\n## 🧰 Maintenance\n\n- Add Renovate for dependency management @frenck ([#49](https://github.com/hassio-addons/addon-mqtt-i",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "MQTT IO",
+          "friendly_name": "MQTT IO Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.211300+00:00",
+        "last_updated": "2023-11-22T03:37:38.211300+00:00",
+        "context": {
+          "id": "01HFTHNN53MMADKGWE4A5BMH51",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.nginx_proxy_manager_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "0.12.3",
+          "in_progress": false,
+          "latest_version": "0.12.3",
+          "release_summary": "## What’s changed\n\n## 🐛 Bug fixes\n\n- 🚑 Update add-on to handle new log file paths @krisbogaerts (#357)\n- 🚑 Exclude logs from backup @frenck (#382)\n\n## ⬆️ Dependency updates\n\n- ⬆️ Upgrades add-on base image to 12.2.4 @frenck (#360)\n- ⬆️ Bump certbot-dns-cl",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Nginx Proxy Manager",
+          "entity_picture": "/api/hassio/addons/a0d7b954_nginxproxymanager/icon",
+          "friendly_name": "Nginx Proxy Manager Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.211355+00:00",
+        "last_updated": "2023-11-22T03:37:38.211355+00:00",
+        "context": {
+          "id": "01HFTHNN534KWTHR2B6V32NCXG",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.node_red_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "16.0.2",
+          "in_progress": false,
+          "latest_version": "16.0.2",
+          "release_summary": "## What’s changed\n\n⚠️ With this release, the `nodered` data folder will migrate/move out of the Home Assistant configuration folder into a dedicated folder for this add-on. You can access add-on configuration folders using SSH, Samba, VSCode, and similar ",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Node-RED",
+          "entity_picture": "/api/hassio/addons/a0d7b954_nodered/icon",
+          "friendly_name": "Node-RED Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.211411+00:00",
+        "last_updated": "2023-11-22T03:37:38.211411+00:00",
+        "context": {
+          "id": "01HFTHNN537XACQ25ZHDP6F7RG",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.phpmyadmin_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "0.8.9",
+          "in_progress": false,
+          "latest_version": "0.8.9",
+          "release_summary": "## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.1.1 @renovate ([#182](https://github.com/hassio-addons/addon-phpmyadmin/pull/182))\n- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.1.3 @renovate",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "phpMyAdmin",
+          "entity_picture": "/api/hassio/addons/a0d7b954_phpmyadmin/icon",
+          "friendly_name": "phpMyAdmin Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.211464+00:00",
+        "last_updated": "2023-11-22T03:37:38.211464+00:00",
+        "context": {
+          "id": "01HFTHNN53KQY9BDABX5QBRJY4",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.studio_code_server_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "5.14.2",
+          "in_progress": false,
+          "latest_version": "5.14.2",
+          "release_summary": "## What’s changed\n\n## 🐛 Bug fixes\n\n- Fix unbound variable in log warning message @frenck ([#736](https://github.com/hassio-addons/addon-vscode/pull/736))\n",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Studio Code Server",
+          "entity_picture": "/api/hassio/addons/a0d7b954_vscode/icon",
+          "friendly_name": "Studio Code Server Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.211522+00:00",
+        "last_updated": "2023-11-22T07:07:00.545491+00:00",
+        "context": {
+          "id": "01HFTXN121C4MYVX8ADBH9P7CT",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.traccar_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "0.22.0",
+          "in_progress": false,
+          "latest_version": "0.22.0",
+          "release_summary": "## What’s changed\n\n## 🚀 Enhancements\n\n- Migrate Traccar config out of Home Assistant config folder @frenck ([#261](https://github.com/hassio-addons/addon-traccar/pull/261))\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update alpine_3_18/nginx to v1.24.0-r7 @renovate (",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Traccar",
+          "entity_picture": "/api/hassio/addons/a0d7b954_traccar/icon",
+          "friendly_name": "Traccar Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.211579+00:00",
+        "last_updated": "2023-11-22T03:37:38.211579+00:00",
+        "context": {
+          "id": "01HFTHNN53GC9JK41DQP1ZERZY",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.unifi_network_application_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "2.8.1",
+          "in_progress": false,
+          "latest_version": "2.8.1",
+          "release_summary": "## What’s changed\n\n## ⬆️ Dependency updates\n\n- Update to 7.5.187 @zmottie ([#457](https://github.com/hassio-addons/addon-unifi/pull/457))\n",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "UniFi Network Application",
+          "entity_picture": "/api/hassio/addons/a0d7b954_unifi/icon",
+          "friendly_name": "UniFi Network Application Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.211635+00:00",
+        "last_updated": "2023-11-22T03:37:38.211635+00:00",
+        "context": {
+          "id": "01HFTHNN53D5F66YQ0NH3ACJ8T",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.uptime_kuma_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "0.9.1",
+          "in_progress": false,
+          "latest_version": "0.9.1",
+          "release_summary": "## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update louislam/uptime-kuma to v1.23.2 @renovate ([#104](https://github.com/hassio-addons/addon-uptime-kuma/pull/104))\n- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.1.1 @renovate ([#105](https:/",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Uptime Kuma",
+          "entity_picture": "/api/hassio/addons/a0d7b954_uptime-kuma/icon",
+          "friendly_name": "Uptime Kuma Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.211693+00:00",
+        "last_updated": "2023-11-22T03:37:38.211693+00:00",
+        "context": {
+          "id": "01HFTHNN53B5Q2YX004HHF3MEA",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.influxdb_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "4.8.0",
+          "in_progress": false,
+          "latest_version": "4.8.0",
+          "release_summary": "## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update Add-on base image to v7 (major) @renovate ([#291](https://github.com/hassio-addons/addon-influxdb/pull/291))\n",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "InfluxDB",
+          "entity_picture": "/api/hassio/addons/a0d7b954_influxdb/icon",
+          "friendly_name": "InfluxDB Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.212645+00:00",
+        "last_updated": "2023-11-22T03:37:38.212645+00:00",
+        "context": {
+          "id": "01HFTHNN5419VH2CCE3CF7V55K",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.home_panel_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "2.7.0",
+          "in_progress": false,
+          "latest_version": "2.7.0",
+          "release_summary": "## What’s changed\n\n## 📚 Documentation\n\n- Fixed broken images in README.md @eamonwoortman ([#204](https://github.com/hassio-addons/addon-home-panel/pull/204))\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update alpine_3_18/nginx to v1.24.0-r4 @renovate ([#205](https://",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Home Panel",
+          "entity_picture": "/api/hassio/addons/a0d7b954_home-panel/icon",
+          "friendly_name": "Home Panel Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-11-22T03:37:38.212763+00:00",
+        "last_updated": "2023-11-22T03:37:38.212763+00:00",
+        "context": {
+          "id": "01HFTHNN54PNX9HW2H8Y9ZDK4Z",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.home_assistant_operating_system_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "11.2.rc1",
+          "in_progress": false,
+          "latest_version": "11.2.rc1",
+          "release_summary": null,
+          "release_url": "https://github.com/home-assistant/operating-system/releases/tag/11.2.rc1",
+          "skipped_version": null,
+          "title": "Home Assistant Operating System",
+          "entity_picture": "https://brands.home-assistant.io/homeassistant/icon.png",
+          "friendly_name": "Home Assistant Operating System Update",
+          "supported_features": 3
+        },
+        "last_changed": "2023-11-22T03:37:38.212915+00:00",
+        "last_updated": "2023-11-22T03:37:38.212915+00:00",
+        "context": {
+          "id": "01HFTHNN54S5HFNA1VR1BF41VJ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.auto_update",
+        "state": "on",
+        "attributes": {
+          "id": "1700604157107",
+          "last_triggered": "2023-11-21T22:57:34.847662+00:00",
+          "mode": "single",
+          "current": 0,
+          "friendly_name": "Auto Update"
+        },
+        "last_changed": "2023-11-22T03:37:38.950221+00:00",
+        "last_updated": "2023-11-22T03:37:38.950221+00:00",
+        "context": {
+          "id": "01HFTHNNW6EDQA03WAFHZXNDP0",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "tts.google_en_com",
+        "state": "unknown",
+        "attributes": {
+          "friendly_name": "Google en com"
+        },
+        "last_changed": "2023-11-22T03:37:44.315047+00:00",
+        "last_updated": "2023-11-22T03:37:44.315047+00:00",
+        "context": {
+          "id": "01HFTHNV3V0WVQHES2D66YSRE9",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "stt.faster_whisper",
+        "state": "unknown",
+        "attributes": {
+          "friendly_name": "faster-whisper"
+        },
+        "last_changed": "2023-11-22T03:38:20.444949+00:00",
+        "last_updated": "2023-11-22T03:38:20.444949+00:00",
+        "context": {
+          "id": "01HFTHPYCW4XWHKP2AJZQRR817",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-22T07:25:57.117964+00:00"
+    }
+  ]
+}

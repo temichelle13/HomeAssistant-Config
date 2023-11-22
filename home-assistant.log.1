@@ -1,0 +1,186 @@
+2023-11-21 22:35:04.671 ERROR (MainThread) [snitun.multiplexer.core] Ping fails, no response from peer
+2023-11-21 22:35:05.012 ERROR (MainThread) [hass_nabucasa.remote] Connection problem to snitun server (Challenge/Response error with SniTun server (0 bytes read on a total of 32 expected bytes))
+2023-11-21 22:57:35.144 ERROR (MainThread) [homeassistant.components.automation.auto_update] Auto Update: Error executing script. Error for call_service at pos 1: No update available for update.home_assistant_core_update
+2023-11-21 22:57:35.150 ERROR (MainThread) [homeassistant.components.automation.auto_update] Error while executing automation automation.auto_update: No update available for update.home_assistant_core_update
+2023-11-21 23:02:41.040 WARNING (MainThread) [homeassistant.components.google_assistant.helpers] Webhook handler 61417ac7797aabf4123ce3e6b565c1778185ba1ccb54ea16c1409b458870efb3 for agent user id a822c89a-6397-4b78-b049-79af9b17f582 is already defined!
+2023-11-21 23:02:41.043 WARNING (MainThread) [homeassistant.components.google_assistant.helpers] Local fulfillment failed to setup, falling back to cloud fulfillment
+2023-11-22 03:21:50.796 ERROR (MainThread) [snitun.multiplexer.core] Ping fails, no response from peer
+2023-11-22 03:25:29.971 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [140213094735808] Error updating Home Assistant Operating System: 'OSManager.update' blocked from execution, supervisor needs to be updated first
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/hassio/update.py", line 212, in async_install
+    await async_update_os(self.hass, version)
+  File "/usr/src/homeassistant/homeassistant/components/hassio/handler.py", line 53, in _wrapper
+    raise HassioAPIError(data["message"])
+homeassistant.components.hassio.handler.HassioAPIError: 'OSManager.update' blocked from execution, supervisor needs to be updated first
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 230, in handle_call_service
+    await hass.services.async_call(
+  File "/usr/src/homeassistant/homeassistant/core.py", line 2035, in async_call
+    response_data = await coro
+                    ^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/core.py", line 2072, in _execute_service
+    return await target(service_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 235, in handle_service
+    return await service.entity_service_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 876, in entity_service_call
+    response_data = await _handle_entity_call(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 948, in _handle_entity_call
+    result = await task
+             ^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/update/__init__.py", line 157, in async_install
+    await entity.async_install_with_progress(version, backup)
+  File "/usr/src/homeassistant/homeassistant/components/update/__init__.py", line 432, in async_install_with_progress
+    await self.async_install(version, backup)
+  File "/usr/src/homeassistant/homeassistant/components/hassio/update.py", line 214, in async_install
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: Error updating Home Assistant Operating System: 'OSManager.update' blocked from execution, supervisor needs to be updated first
+2023-11-22 03:25:32.131 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [140213094735808] Error updating Home Assistant Operating System: 'OSManager.update' blocked from execution, supervisor needs to be updated first
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/hassio/update.py", line 212, in async_install
+    await async_update_os(self.hass, version)
+  File "/usr/src/homeassistant/homeassistant/components/hassio/handler.py", line 53, in _wrapper
+    raise HassioAPIError(data["message"])
+homeassistant.components.hassio.handler.HassioAPIError: 'OSManager.update' blocked from execution, supervisor needs to be updated first
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 230, in handle_call_service
+    await hass.services.async_call(
+  File "/usr/src/homeassistant/homeassistant/core.py", line 2035, in async_call
+    response_data = await coro
+                    ^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/core.py", line 2072, in _execute_service
+    return await target(service_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 235, in handle_service
+    return await service.entity_service_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 876, in entity_service_call
+    response_data = await _handle_entity_call(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 948, in _handle_entity_call
+    result = await task
+             ^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/update/__init__.py", line 157, in async_install
+    await entity.async_install_with_progress(version, backup)
+  File "/usr/src/homeassistant/homeassistant/components/update/__init__.py", line 432, in async_install_with_progress
+    await self.async_install(version, backup)
+  File "/usr/src/homeassistant/homeassistant/components/hassio/update.py", line 214, in async_install
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: Error updating Home Assistant Operating System: 'OSManager.update' blocked from execution, supervisor needs to be updated first
+2023-11-22 03:26:05.347 ERROR (MainThread) [homeassistant.components.hassio.handler] Client error on /os/update request Cannot connect to host 172.30.32.2:80 ssl:default [Connect call failed ('172.30.32.2', 80)]
+2023-11-22 03:26:05.350 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [140213094735808] Error updating Home Assistant Operating System: 
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/hassio/update.py", line 212, in async_install
+    await async_update_os(self.hass, version)
+  File "/usr/src/homeassistant/homeassistant/components/hassio/handler.py", line 50, in _wrapper
+    data = await funct(*argv, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/hassio/handler.py", line 217, in async_update_os
+    return await hassio.send_command(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/hassio/handler.py", line 589, in send_command
+    raise HassioAPIError()
+homeassistant.components.hassio.handler.HassioAPIError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 230, in handle_call_service
+    await hass.services.async_call(
+  File "/usr/src/homeassistant/homeassistant/core.py", line 2035, in async_call
+    response_data = await coro
+                    ^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/core.py", line 2072, in _execute_service
+    return await target(service_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 235, in handle_service
+    return await service.entity_service_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 876, in entity_service_call
+    response_data = await _handle_entity_call(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 948, in _handle_entity_call
+    result = await task
+             ^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/update/__init__.py", line 157, in async_install
+    await entity.async_install_with_progress(version, backup)
+  File "/usr/src/homeassistant/homeassistant/components/update/__init__.py", line 432, in async_install_with_progress
+    await self.async_install(version, backup)
+  File "/usr/src/homeassistant/homeassistant/components/hassio/update.py", line 214, in async_install
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: Error updating Home Assistant Operating System: 
+2023-11-22 03:26:08.948 ERROR (MainThread) [homeassistant.components.hassio.handler] Client error on /supervisor/update request Cannot connect to host 172.30.32.2:80 ssl:default [Connect call failed ('172.30.32.2', 80)]
+2023-11-22 03:26:08.957 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [140213094735808] Error updating Home Assistant Supervisor: 
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/hassio/update.py", line 258, in async_install
+    await async_update_supervisor(self.hass)
+  File "/usr/src/homeassistant/homeassistant/components/hassio/handler.py", line 50, in _wrapper
+    data = await funct(*argv, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/hassio/handler.py", line 233, in async_update_supervisor
+    return await hassio.send_command(command, timeout=None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/hassio/handler.py", line 589, in send_command
+    raise HassioAPIError()
+homeassistant.components.hassio.handler.HassioAPIError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 230, in handle_call_service
+    await hass.services.async_call(
+  File "/usr/src/homeassistant/homeassistant/core.py", line 2035, in async_call
+    response_data = await coro
+                    ^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/core.py", line 2072, in _execute_service
+    return await target(service_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 235, in handle_service
+    return await service.entity_service_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 876, in entity_service_call
+    response_data = await _handle_entity_call(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 948, in _handle_entity_call
+    result = await task
+             ^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/update/__init__.py", line 157, in async_install
+    await entity.async_install_with_progress(version, backup)
+  File "/usr/src/homeassistant/homeassistant/components/update/__init__.py", line 432, in async_install_with_progress
+    await self.async_install(version, backup)
+  File "/usr/src/homeassistant/homeassistant/components/hassio/update.py", line 260, in async_install
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: Error updating Home Assistant Supervisor: 
+2023-11-22 03:26:10.710 ERROR (MainThread) [homeassistant.components.hassio.handler] Client error on /refresh_updates request Cannot connect to host 172.30.32.2:80 ssl:default [Connect call failed ('172.30.32.2', 80)]
+2023-11-22 03:26:10.716 ERROR (MainThread) [homeassistant.components.hassio.handler] Client error on /info request Cannot connect to host 172.30.32.2:80 ssl:default [Connect call failed ('172.30.32.2', 80)]
+2023-11-22 03:26:10.717 ERROR (MainThread) [homeassistant.components.hassio.handler] Client error on /core/info request Cannot connect to host 172.30.32.2:80 ssl:default [Connect call failed ('172.30.32.2', 80)]
+2023-11-22 03:26:10.719 ERROR (MainThread) [homeassistant.components.hassio.handler] Client error on /supervisor/info request Cannot connect to host 172.30.32.2:80 ssl:default [Connect call failed ('172.30.32.2', 80)]
+2023-11-22 03:26:10.721 ERROR (MainThread) [homeassistant.components.hassio.handler] Client error on /os/info request Cannot connect to host 172.30.32.2:80 ssl:default [Connect call failed ('172.30.32.2', 80)]
+2023-11-22 03:26:10.721 ERROR (MainThread) [homeassistant.components.hassio.handler] Client error on /core/stats request Cannot connect to host 172.30.32.2:80 ssl:default [Connect call failed ('172.30.32.2', 80)]
+2023-11-22 03:26:10.721 ERROR (MainThread) [homeassistant.components.hassio] Error fetching hassio data: Error on Supervisor API: 
+2023-11-22 03:26:20.758 ERROR (MainThread) [homeassistant.components.hassio.handler] Client error on /refresh_updates request Cannot connect to host 172.30.32.2:80 ssl:default [Connect call failed ('172.30.32.2', 80)]
+2023-11-22 03:26:20.766 ERROR (MainThread) [homeassistant.components.hassio.handler] Client error on /info request Cannot connect to host 172.30.32.2:80 ssl:default [Connect call failed ('172.30.32.2', 80)]
+2023-11-22 03:26:20.771 ERROR (MainThread) [homeassistant.components.hassio.handler] Client error on /core/info request Cannot connect to host 172.30.32.2:80 ssl:default [Connect call failed ('172.30.32.2', 80)]
+2023-11-22 03:26:20.773 ERROR (MainThread) [homeassistant.components.hassio.handler] Client error on /supervisor/info request Cannot connect to host 172.30.32.2:80 ssl:default [Connect call failed ('172.30.32.2', 80)]
+2023-11-22 03:26:20.777 ERROR (MainThread) [homeassistant.components.hassio.handler] Client error on /os/info request Cannot connect to host 172.30.32.2:80 ssl:default [Connect call failed ('172.30.32.2', 80)]
+2023-11-22 03:26:20.778 ERROR (MainThread) [homeassistant.components.hassio.handler] Client error on /core/stats request Cannot connect to host 172.30.32.2:80 ssl:default [Connect call failed ('172.30.32.2', 80)]
+2023-11-22 03:29:10.860 ERROR (SyncWorker_0) [pyicloud.base] Missing apple_id field
+2023-11-22 03:29:10.861 ERROR (MainThread) [homeassistant.components.icloud.config_flow] Error logging into iCloud service: ('Invalid authentication token.', PyiCloudAPIResponseException('Missing apple_id field'))
+2023-11-22 03:31:08.351 ERROR (SyncWorker_0) [pyicloud.base] Missing apple_id field
+2023-11-22 03:31:08.351 ERROR (MainThread) [homeassistant.components.icloud.config_flow] Error logging into iCloud service: ('Invalid authentication token.', PyiCloudAPIResponseException('Missing apple_id field'))
+2023-11-22 03:31:14.464 ERROR (SyncWorker_4) [pyicloud.base] Missing apple_id field
+2023-11-22 03:31:14.465 ERROR (MainThread) [homeassistant.components.icloud.config_flow] Error logging into iCloud service: ('Invalid authentication token.', PyiCloudAPIResponseException('Missing apple_id field'))
+2023-11-22 03:32:06.542 ERROR (SyncWorker_0) [pyicloud.base] Missing apple_id field
+2023-11-22 03:32:06.544 ERROR (MainThread) [homeassistant.components.icloud.config_flow] Error logging into iCloud service: ('Invalid authentication token.', PyiCloudAPIResponseException('Missing apple_id field'))
+2023-11-22 03:32:12.429 ERROR (SyncWorker_4) [pyicloud.base] Missing apple_id field
+2023-11-22 03:32:12.430 ERROR (MainThread) [homeassistant.components.icloud.config_flow] Error logging into iCloud service: ('Invalid authentication token.', PyiCloudAPIResponseException('Missing apple_id field'))
+2023-11-22 03:32:33.847 WARNING (SyncWorker_0) [pyicloud.base.http] Failed to parse response with JSON mimetype
+2023-11-22 03:33:18.350 ERROR (MainThread) [homeassistant.components.hassio] Failed to to call /addons/core_configurator/info - System is not ready with state: shutdown

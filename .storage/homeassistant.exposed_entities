@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "homeassistant.exposed_entities",
+  "data": {
+    "assistants": {
+      "cloud.alexa": {
+        "expose_new": true
+      },
+      "cloud.google_assistant": {
+        "expose_new": true
+      }
+    },
+    "exposed_entities": {
+      "zone.home": {
+        "assistants": {
+          "conversation": {
+            "should_expose": true
+          },
+          "cloud.alexa": {
+            "should_expose": true
+          },
+          "cloud.google_assistant": {
+            "should_expose": true
+          }
+        }
+      },
+      "sun.sun": {
+        "assistants": {
+          "conversation": {
+            "should_expose": true
+          },
+          "cloud.alexa": {
+            "should_expose": true
+          },
+          "cloud.google_assistant": {
+            "should_expose": true
+          }
+        }
+      }
+    }
+  }
+}

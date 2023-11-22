@@ -1,0 +1,20 @@
+- id: '1700604157107'
+  alias: Auto Update
+  description: ''
+  trigger:
+  - platform: device
+    type: turned_on
+    device_id: c0b7f1e37533454742e04bcc60f84c44
+    entity_id: 52d200d48166f3891b947b8d594759a6
+    domain: update
+  condition: []
+  action:
+  - service: update.install
+    data:
+      backup: true
+    target:
+      entity_id:
+      - update.home_assistant_supervisor_update
+      - update.home_assistant_core_update
+      - update.home_assistant_operating_system_update
+  mode: single

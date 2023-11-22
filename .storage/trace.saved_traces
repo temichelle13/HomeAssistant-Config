@@ -1,0 +1,331 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "trace.saved_traces",
+  "data": {
+    "automation.1700604157107": [
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "c2afb2b36da12a77e7175c3cccb14747",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-11-21T22:03:27.891588+00:00",
+            "finish": "2023-11-21T22:03:27.895428+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1700604157107",
+          "trigger": null,
+          "trace": {
+            "trigger": [
+              {
+                "path": "trigger",
+                "timestamp": "2023-11-21T22:03:27.892102+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.auto_update",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1700604157107",
+                      "last_triggered": null,
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Auto Update"
+                    },
+                    "last_changed": "2023-11-21T22:03:25.366672+00:00",
+                    "last_updated": "2023-11-21T22:03:25.366672+00:00",
+                    "context": {
+                      "id": "01HFSYHP9P1D75FFMD9PGMNER0",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "platform": null
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-11-21T22:03:27.894033+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01HFSYHRRKVS7V3YCNBA86H3AJ",
+                    "parent_id": "01HFSYHRRG5XAYKQ41ED4QT84F",
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "update",
+                    "service": "install",
+                    "service_data": {
+                      "backup": true,
+                      "entity_id": [
+                        "update.home_assistant_supervisor_update",
+                        "update.home_assistant_core_update",
+                        "update.home_assistant_operating_system_update"
+                      ]
+                    },
+                    "target": {
+                      "entity_id": [
+                        "update.home_assistant_supervisor_update",
+                        "update.home_assistant_core_update",
+                        "update.home_assistant_operating_system_update"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1700604157107",
+            "alias": "Auto Update",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "device",
+                "type": "turned_on",
+                "device_id": "c0b7f1e37533454742e04bcc60f84c44",
+                "entity_id": "52d200d48166f3891b947b8d594759a6",
+                "domain": "update"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "service": "update.install",
+                "data": {
+                  "backup": true
+                },
+                "target": {
+                  "entity_id": [
+                    "update.home_assistant_supervisor_update",
+                    "update.home_assistant_core_update",
+                    "update.home_assistant_operating_system_update"
+                  ]
+                }
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01HFSYHRRKVS7V3YCNBA86H3AJ",
+            "parent_id": "01HFSYHRRG5XAYKQ41ED4QT84F",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "c2afb2b36da12a77e7175c3cccb14747",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-11-21T22:03:27.891588+00:00",
+            "finish": "2023-11-21T22:03:27.895428+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1700604157107",
+          "trigger": null
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "03caa51906290721eee411d09c5b594a",
+          "state": "stopped",
+          "script_execution": "error",
+          "timestamp": {
+            "start": "2023-11-21T22:57:34.804369+00:00",
+            "finish": "2023-11-21T22:57:35.150582+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1700604157107",
+          "error": "No update available for update.home_assistant_core_update",
+          "trigger": "state of update.home_assistant_supervisor_update",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-11-21T22:57:34.806873+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.auto_update",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1700604157107",
+                      "last_triggered": "2023-11-21T22:03:27.892775+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Auto Update"
+                    },
+                    "last_changed": "2023-11-21T22:30:19.848217+00:00",
+                    "last_updated": "2023-11-21T22:30:19.848217+00:00",
+                    "context": {
+                      "id": "01HFT02YY8CJ2D86B3N21EE5QJ",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "update.home_assistant_supervisor_update",
+                    "from_state": {
+                      "entity_id": "update.home_assistant_supervisor_update",
+                      "state": "off",
+                      "attributes": {
+                        "auto_update": true,
+                        "installed_version": "2023.11.3",
+                        "in_progress": false,
+                        "latest_version": "2023.11.3",
+                        "release_summary": null,
+                        "release_url": "https://github.com/home-assistant/supervisor/releases/tag/2023.11.3",
+                        "skipped_version": null,
+                        "title": "Home Assistant Supervisor",
+                        "entity_picture": "https://brands.home-assistant.io/hassio/icon.png",
+                        "icon": "mdi:home-assistant",
+                        "friendly_name": "Update",
+                        "supported_features": 1
+                      },
+                      "last_changed": "2023-11-21T22:30:14.704351+00:00",
+                      "last_updated": "2023-11-21T22:30:14.704351+00:00",
+                      "context": {
+                        "id": "01HFT02SXGY16WRZMYNFPRJCZH",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "update.home_assistant_supervisor_update",
+                      "state": "on",
+                      "attributes": {
+                        "auto_update": true,
+                        "installed_version": "2023.11.3",
+                        "in_progress": false,
+                        "latest_version": "2023.11.4",
+                        "release_summary": null,
+                        "release_url": "https://github.com/home-assistant/supervisor/releases/tag/2023.11.4",
+                        "skipped_version": null,
+                        "title": "Home Assistant Supervisor",
+                        "entity_picture": "https://brands.home-assistant.io/hassio/icon.png",
+                        "icon": "mdi:home-assistant",
+                        "friendly_name": "Update",
+                        "supported_features": 1
+                      },
+                      "last_changed": "2023-11-21T22:57:34.583953+00:00",
+                      "last_updated": "2023-11-21T22:57:34.583953+00:00",
+                      "context": {
+                        "id": "01HFT1MVBQVMT7PB1NYARW6XV2",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of update.home_assistant_supervisor_update"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-11-21T22:57:34.993464+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01HFT1MVH5B2KKNJSXNAWJDRB0",
+                    "parent_id": "01HFT1MVBQVMT7PB1NYARW6XV2",
+                    "user_id": null
+                  }
+                },
+                "error": "No update available for update.home_assistant_core_update",
+                "result": {
+                  "params": {
+                    "domain": "update",
+                    "service": "install",
+                    "service_data": {
+                      "backup": true,
+                      "entity_id": [
+                        "update.home_assistant_supervisor_update",
+                        "update.home_assistant_core_update",
+                        "update.home_assistant_operating_system_update"
+                      ]
+                    },
+                    "target": {
+                      "entity_id": [
+                        "update.home_assistant_supervisor_update",
+                        "update.home_assistant_core_update",
+                        "update.home_assistant_operating_system_update"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1700604157107",
+            "alias": "Auto Update",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "device",
+                "type": "turned_on",
+                "device_id": "c0b7f1e37533454742e04bcc60f84c44",
+                "entity_id": "52d200d48166f3891b947b8d594759a6",
+                "domain": "update"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "service": "update.install",
+                "data": {
+                  "backup": true
+                },
+                "target": {
+                  "entity_id": [
+                    "update.home_assistant_supervisor_update",
+                    "update.home_assistant_core_update",
+                    "update.home_assistant_operating_system_update"
+                  ]
+                }
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01HFT1MVH5B2KKNJSXNAWJDRB0",
+            "parent_id": "01HFT1MVBQVMT7PB1NYARW6XV2",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "03caa51906290721eee411d09c5b594a",
+          "state": "stopped",
+          "script_execution": "error",
+          "timestamp": {
+            "start": "2023-11-21T22:57:34.804369+00:00",
+            "finish": "2023-11-21T22:57:35.150582+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1700604157107",
+          "error": "No update available for update.home_assistant_core_update",
+          "trigger": "state of update.home_assistant_supervisor_update"
+        }
+      }
+    ]
+  }
+}
