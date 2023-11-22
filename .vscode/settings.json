@@ -1,0 +1,8 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.wordWrap": "on",
+    "editor.codeActionWidget.includeNearbyQuickfixes": true,
+    "editor.defaultFoldingRangeProvider": null,
+    "editor.definitionLinkOpensInPeek": true,
+    "window.autoDetectColorScheme": true
+}
